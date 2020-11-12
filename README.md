@@ -32,6 +32,7 @@ $ rosrun turtlesim turtlesim_node
 $ rosrun main_package main
 $ rosservice call /play "play_pose_x: 3.0 play_pose_y: 4.5"
 ```
+If you want, you can list rosservices which includes /play with a comment `rosservice list`.That gives you every rosservice included in this repository.
 After last comment, `turtlesim_node` moves to (3,4.5) point which can be change.
 
 # Function Explanation
