@@ -8,9 +8,9 @@ A `turtlesim_node` is published for simulating a robot that has 3 behaviours. Th
  * **Play** behaviour occurs when `rosservice call /play [argument]` comment entered prompt by user. At this status, first, node moves to a specific point(user location), then moves to a specific point (play_x, play_y,) which is entered by the user.
  
 # Setup
-* Clone this repository in to your device.
+* Clone this repository in to your device or directly download .zip file.
 ```
-$  git clone https://github.com/edoruk/Experimental-Robotics-Assignment1.git
+$  git clone https://github.com/edoruk/exp_ws.git
 ```
 * After downlaoding has finished, rename folder with **"exp_ws"**.
 
