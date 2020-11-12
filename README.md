@@ -12,6 +12,8 @@ A `turtlesim_node` is published for simulating a robot that has 3 behaviours. Th
 ```
 $  git clone https://github.com/edoruk/Experimental-Robotics-Assignment1.git
 ```
+* After downlaoding has finished, rename folder with **"exp_ws"**.
+
 * Copy your file path and add source path to your .bashrc file. Before that, you need to be a superuser, * if you are not *.
 ```
 $ sudo -i
