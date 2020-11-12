@@ -1,0 +1,2 @@
+custom_messages:main_package
+-DCATKIN_DEVEL_PREFIX=/home/doruk/exp_ws/devel -DCMAKE_INSTALL_PREFIX=/home/doruk/exp_ws/install -G Unix Makefiles
