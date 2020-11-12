@@ -36,25 +36,25 @@ If you want, you can list rosservices which includes /play with a comment `rosse
 After last comment, `turtlesim_node` moves to (3,4.5) point which can be change.
 
 # Function Explanation
-*`void tour(turtlesim::Pose goal_pose);`
+* `void tour(turtlesim::Pose goal_pose);`
 For moving node randomly on 2D map on normal behaviour.
-*`bool checkWall(turtlesim::Pose goal_pose);`
+* `bool checkWall(turtlesim::Pose goal_pose);`
 For hecking if next point is inside of the map.
-*`void move(double speed, double distance, bool isForward);`
+* `void move(double speed, double distance, bool isForward);`
 For checking next point if `isForward` and move node at linear.x  direction.
-*`void rotate(double angular_speed, double angle, bool cloclwise);`
+* `void rotate(double angular_speed, double angle, bool cloclwise);`
 For checking and determining angular.z direction. 
-*`double degrees2radians(double angle_in_degrees);`
+* `double degrees2radians(double angle_in_degrees);`
 For calculating radian from degree.
-*`double setDesiredOrientation(double desired_angle_radians);`
+* `double setDesiredOrientation(double desired_angle_radians);`
 For understanding desired orientation.
-*`void moveGoal(turtlesim::Pose goal_pose, double distance_tolerance);	//this will move robot to goal`
+* `void moveGoal(turtlesim::Pose goal_pose, double distance_tolerance);	//this will move robot to goal`
 For moving `turtlesim_node` to specific location.
-*`double getDistance(double x1, double y1, double x2, double y2);`
+* `double getDistance(double x1, double y1, double x2, double y2);`
 For calculating distance between current and next location.
-*`void updatePose(const turtlesim::Pose::ConstPtr & pose_message);`
+* `void updatePose(const turtlesim::Pose::ConstPtr & pose_message);`
 For calling when initializing subscriber.
-*`bool playCallBack(custom_messages::Play::Request& req, custom_messages::Play::Response& res);`
+* `bool playCallBack(custom_messages::Play::Request& req, custom_messages::Play::Response& res);`
 For calling when initializing `rosService server`.
 
 ## Custom_messages
